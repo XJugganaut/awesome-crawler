@@ -1,4 +1,6 @@
-# Readme.md
+# README.md
+![ScrapeScrape](api.webp)
+ 
 
 # Cybersecurity Jobs Data Extraction from Indeed API
 This script extracts cybersecurity job postings in Chicago from the Indeed API, processes the data, and saves it to a CSV file.
