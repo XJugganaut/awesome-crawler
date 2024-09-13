@@ -52,6 +52,19 @@ python script_name.py
 
 After execution, check the cyberjobsindeed_data.csv file for the extracted data.
 # Troubleshooting
+<!-- python code block -->
+
+```python
+
+ else:
+                    print(f"Error: Missing job fields for job ID {job.get('id', '')}")
+
+    print(f"Data successfully written to {csv_file}")
+
+else:
+    print(f"Error: Unable to fetch data (Status code: {response.status_code})")
+```
+ 
 API Key Error: Ensure your API key is valid and has the necessary permissions.
 Connection Issues: Check your internet connection and ensure the API endpoint is reachable.
 Missing Fields: If certain job fields are missing in the output, they may not be provided by the API. The script logs these instances for further review.
